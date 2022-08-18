@@ -14,6 +14,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
+            <Route path="/Gym-App" element={<Home />} />
           <Route path="/exercise/:id" element={<ExerciseDetail />} />
         </Routes>
 
